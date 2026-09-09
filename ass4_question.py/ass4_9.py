@@ -1,0 +1,11 @@
+# 9. WAP to print all numbers in a range divisible by a given number.
+
+start = int(input("enter the starting nmber:"))
+end = int(input("enter the ending number:"))
+d = int(input("enter the divisor:"))
+
+print("number divisible by", d, "are:")
+
+for i in range(start, end + 1):
+    if i % d == 0:
+        print(i)
